@@ -48,11 +48,12 @@ inore jj <esc>
 call plug#begin('~/.vim/plugged')
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" extentions used: coc-snippits, coc-json, coc-css, coc-html, coc-tsserver, coc-python, coc-cland
 Plug 'morhetz/gruvbox'
 Plug 'jremmen/vim-ripgrep'
-Plug 'lyuts/vim-rtags'
+Plug 'lyuts/vim-rtags' "currently not working 
 Plug 'mbbill/undotree'
-Plug 'valloric/youcompleteme'
+Plug 'valloric/youcompleteme' "currently not working 
 Plug 'kien/ctrlp.vim'
 
 call plug#end()
