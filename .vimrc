@@ -18,6 +18,7 @@ set hidden
 set spelllang=en_us,fr_ch "Set Langs for the Spellchecker 
 set spell                 " Activate Spell Check 
 set autoread
+set cursorline            " Highlight Current Line
 
 "Json comments display 
   autocmd FileType json syntax match Comment +\/\/.\+$+
