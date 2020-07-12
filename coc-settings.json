@@ -1,0 +1,30 @@
+{
+    "coc.preferences.extensionUpdateCheck": "daily",
+    "coc.preferences.formatOnSaveFiletypes":
+        [
+            ".json",
+            ".vimrc",
+            ".bashrc",
+            ".sh",
+            ".js",
+            ".ts",
+            ".vim",
+            ".cmake",
+            ".txt"
+         ],
+    "coc.preferences.bracketEnterImprove": true,
+
+    "json.enable": true,
+    "json.format.enable": true,
+
+    "javascript.format.semicolons": "ignore",
+    "javascript.format.enabled": true,
+    "javascript.format.insertSpaceAfterSemicolonInForStatements": true,
+    "javascript.showUnused": true,
+    "javascript.suggest.paths": true,
+    "javascript.preferences.quoteStyle": "double",
+
+    "clangd.path": "/home/matthew/.config/coc/extensions/coc-clangd-data/install/10.0.0/clangd_10.0.0/bin/clangd",
+    "clangd.enabled": true,
+    "clangd.semanticHighlighting": true
+}
